@@ -10,9 +10,9 @@ producer = Producer(producer_config)
 
 order = {
     'order_id': str(uuid.uuid4()),
-    'user': 'Robert',
-    'item': 'mushroom_pizza',
-    'quantity': 2
+    'user': 'Lila',
+    'item': 'regina_pizza',
+    'quantity': 3
 }
 
 value = json.dumps(order).encode('utf-8')
